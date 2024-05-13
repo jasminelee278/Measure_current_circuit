@@ -25,6 +25,7 @@ Cường độ dòng điện định mức (I, đơn vị Ampe) là cường đ�
 - Vì quy mô mạch đơn giản, mạch dùng để đo các thiết bị có cường độ dòng điện nhỏ có cường độ dòng điện từ 0A đến 5A.
 - Kích thước mạch: 120 (dài) x 90 (rộng) x 2 (dày) mm
 #### d. Block diagram
+
 ![Block diagram](Block_diagram.png)
 - Khối cảm biến được xây dựng dựa trên Hall Effect Sensor, cảm biến được đặt trong mạch điện và tạo ra một tín hiệu điện áp khi dòng điện đi qua nó. Tín hiệu output sẽ được gửi đến khối điều khiển.
 - Khối hiển thị: LCD để hiển thị giá trị cường độ dòng điện trực tiếp trên thiết bị.
@@ -42,15 +43,19 @@ Cường độ dòng điện định mức (I, đơn vị Ampe) là cường đ�
 ### 3.	Implementation
 #### a. Schematic
 Sơ đồ nguyên lý của mạch được hiện thực bởi phần mềm Altium Designer.
+
 ![Schematic](Schematic.png)
 #### b.	PCB
 PCB của mạch được hiện thực bởi phần mềm Altium Designer.
 - Trước khi phủ đồng:
+
 ![PCB Before](Before_polygon.png)
 - Sau khi phủ đồng:
-  - Lớp top:
+
+Lớp top:
 ![PCB Top](Top_layer.png)
-  - Lớp bottom:
+
+Lớp bottom:
 ![PCB Bottom](Bottom_layer.png)
 #### b.	3D Body
 Hình 3D của mạch được hiện thực bởi phần mềm Altium Designer.
